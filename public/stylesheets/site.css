@@ -1,0 +1,635 @@
+<pre>/* Basic tags */
+body {
+	margin:0;
+	background:#1D1D20 none repeat scroll 0;
+	font-family:'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+	color:#FFFFFF;
+}
+
+#body {
+	margin:90px 230px 0 10px;
+	padding:0;
+}
+
+a img {
+	border:0;
+}
+
+
+	
+/* Anchors */
+a {
+	color:#0000ff;
+}
+
+a:visited {
+	color:#551a8b;
+}
+
+a:active {
+	color:#ff0000;
+}
+
+
+	
+/* Basic classes */
+.none {
+
+	
+/* to add paragraph spacing to various elements for ttys */
+	margin:0;
+	padding:0;
+}
+
+.invisible {
+
+	
+/* stuff that should appear when this css isn't used */
+	margin:0;
+	border:0;
+	padding:0;
+	height:0;
+	visibility:hidden;
+}
+
+.left {
+	margin:10px;
+	padding:0;
+	float:left;
+}
+
+.right {
+	margin:10px;
+	padding:0;
+	float:right;
+}
+
+.center {
+	text-align:center;
+}
+
+
+	
+/* Common page elements: Header, footer, etc. */
+#logo {
+	position:absolute;
+	top:10px;
+	left:10px;
+	border:0;
+	z-index:10;
+	width:64px;
+	height:64px;
+}
+
+#logo a img {
+	width:64px;
+	height:64px;
+}
+
+#hdr {
+	position:absolute;
+	z-index:5;
+	top:0;
+	left:0;
+	right:0;
+	width:100%;
+	height:48px;
+	text-align:right;
+	background-color:#e3ffc3;
+	border-bottom:1px solid #807d74;
+}
+
+#banner {
+	position:absolute;
+	z-index:10;
+	top:0;
+	right:0;
+	border:0;
+	width:300px;
+	height:48px;
+}
+
+#banner a img {
+	width:300px;
+	height:48px;
+}
+
+#hdrNav {
+	position:absolute;
+	top:54px;
+	left:0;
+	margin-left:84px;
+	text-align:left;
+	vertical-align:middle;
+	font-size:small;
+}
+
+#hdrNav a {
+	color:#000000;
+}
+
+#hdrTitle {
+	height:48px;
+	padding:10px 10px 0 0;
+	font-weight:bold;
+}
+
+
+	
+/* Search thingy */
+#cse {
+	font-size:small;
+	margin-bottom:10px;
+	padding:10px;
+	background-color:#dddddd;
+	width:200px;
+}
+
+#cse input {
+	border:1px solid #666666;
+	background-color:#ffffff;
+	vertical-align:middle;
+}
+/*EMURSE CSS*/
+
+#emurse_resume_badge_gogomonkey a {
+	color: #3672a4;
+	}
+
+#emurse_resume_badge_gogomonkey a:hover {
+	color: #113249;
+	}
+
+#emurse_resume_badge_gogomonkey td,#emurse_resume_badge_gogomonkey th { 
+	padding: 4px !important; 
+	}
+
+	
+/* Sidebar */
+#sidebar {
+	position:absolute;
+	top:90px;
+	right:0;
+	width:210px;
+
+	margin: 10px;
+	padding:10px;
+	padding-bottom:0;
+	border-left:1px dashed #dddddd;
+	background-color:#000000;
+}
+
+#sidebar p {
+	margin-top:0;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+#sidebar p.section {
+	text-align:center;
+	font-weight:bold;
+	padding-top:3px;
+	padding-bottom:3px;
+	color:#999999;
+}
+
+#sidebar ul {
+	margin:0;
+	margin-bottom:15px;
+	padding-left:10px;
+	padding-right:10px;
+	list-style-type:none;
+}
+
+#sidebar ul ul {
+	padding-left:2em;
+	padding-right:0;
+	list-style-type:square;
+}
+
+
+	
+/* Copyright footer */
+#copyright {
+	position:relative;
+	text-align:center;
+	font-size:small;
+	clear:both;
+	top:250px;
+	margin-top:px;
+	padding:5px 0;
+	color:#aaaaaa;
+}
+
+#copyright a {
+	color:#aaaaff;
+}
+
+#copyright a:visited {
+	color:#ffaaaa;
+}
+
+#footer {
+	height:100px;
+	color:#ffffff;
+	
+	clear:left;
+}
+
+#footer ul {
+	margin:0;
+	padding:0;
+	margin-top:10px;
+	float:left;
+	width:290px;
+	padding-left:12px;
+	margin-left:12px;
+	}
+
+#footer ul li {
+	list-style:none;
+	text-transform:uppercase;
+	line-height:2em;
+	font-size:.8em;
+}
+
+#footer a {
+	color:#ffffff;
+}
+
+
+	
+/* Generic Classes */
+div.code {
+	background-color:#e0e0e0;
+	color:#000000;
+	white-space:pre;
+	font-family:monospace;
+}
+
+body {
+	margin:0;
+	padding:0;
+	font-family:sans-serif;
+	background:black -100px -200px no-repeat;
+	height:101%;
+	font-color:white;
+}
+
+#page {
+	margin:0;
+	padding:0;
+}
+
+div.in-column {
+	margin:0 0 2em 1em;
+	float:right;
+	max-width:12em;
+}
+
+hr {
+	color:#888;
+	background:#888;
+	border:0;
+	height:1px;
+	width:90%;
+	text-align:center;
+	clear:both;
+}
+
+div.body {
+	clear:both;
+}
+
+div.sidebar {
+	position:absolute;
+	text-align:left;
+	right:0;
+	top:60px;
+	width:27ex;
+	padding-left:1ex;
+	margin-top:4em;
+}
+
+div.sidebar img {
+	margin-left:4px;
+}
+
+div.sidebar h2 {
+	margin-top:0;
+	padding:5px 2ex;
+	background:url(t.png) top left repeat-y;
+	font-size:100%;
+}
+
+#general {
+	list-style:none;
+	background:#2E3436 url(general_bg.png) 0 100% repeat-x;
+	text-align:right;
+	padding:0 1ex;
+	margin:0;
+	font-size:70%;
+}
+
+#general li {
+	display:inline;
+	background:url(general_separator.png) 0 0 no-repeat;
+	font-family:Times;
+	padding-top:10px;
+	padding-bottom:8px;
+	margin-left:0;
+	margin-top:0;
+}
+
+#general li a {
+	font-weight:bold;
+	color:#FFFFFF;
+	margin:0 2ex;
+	text-decoration:none;
+	line-height:30px;
+}
+
+#general li a:hover {
+	text-decoration:underline;
+}
+
+#general .home {
+	float:left;
+	background:url(general_separator.png) 100% 0 no-repeat;
+	padding-top:0;
+	padding-bottom:0;
+}
+
+#general .home a {
+	float:left;
+	background:url(foot.png) 7px 50% no-repeat;
+	margin-left:0;
+	padding-left:27px;
+}
+
+#header {
+	float:left;
+	width:100%;
+	font-size:75%;
+}
+
+#header h1 {
+	margin:0;
+	margin-left:85px;
+	padding-top:25px;
+	font-size:200%;
+	color:#eeeeec;
+}
+
+#tabs {
+	background:url(bar.png) 0 100% repeat-x;
+	width:100%;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+#portal-globalnav {
+	float:right;
+	list-style:none;
+	margin:0;
+	margin-right:3ex;
+}
+
+#portal-globalnav li {
+	float:left;
+	margin:0;
+	margin-left:.2ex;
+	font-size:2ex;
+}
+
+#portal-globalnav li a:hover {
+	color:#111111;
+}
+
+#portal-globalnav li a {
+	float:left;
+	text-decoration:none;
+	color:#555555;
+	background:url(tab_left.png) 0 0 no-repeat;
+	padding:7px 0 7px 7px;
+	border-bottom:2px solid #CCCCCC;
+}
+
+#portal-globalnav li span {
+	background:url(tab_right.png) 100% 0 no-repeat;
+	padding:7px 28px 7px 19px;
+}
+
+#portal-globalnav li.selected a {
+	color:#3566A5;
+	background:url(tab_left.png) 0 -57px no-repeat;
+	border-bottom:none;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+#portal-globalnav li.selected a span {
+	background:url(tab_right.png) 100% -57px no-repeat;
+	padding-top:8px;
+	padding-bottom:8px;
+}
+
+
+	
+/* page content */
+div#content {
+	clear:both;
+	padding:1em;
+	margin:1em;
+}
+
+div.pagecell {
+	background:black;
+	position:left;
+	text-align:left;
+	color:white;
+	right:0;
+	top:60px;
+	width:100ex;
+	padding-left:3ex;
+	padding-right:3ex;
+	padding-top:10ex;
+	padding-bottom:10ex;
+	margin-left:25px;
+	margin-top:4em;
+}
+
+div.pagecell h2 {
+	margin-top:0;
+	padding:5px 2ex;
+	background:url(t.png) top left repeat-y;
+	font-size:100%;
+}
+
+
+	
+/* This is the CSS for MooTools */
+.tool-tip {
+	color:#fff;
+	width:139px;
+	z-index:13000;
+}
+
+.tool-title {
+	font-weight:bold;
+	font-size:11px;
+	margin:0;
+	color:#9FD4FF;
+	padding:8px 8px 4px;
+	background:url(bubble.png) top left;
+}
+
+.tool-text {
+	font-size:11px;
+	padding:4px 8px 8px;
+	background:url(bubble.png) bottom right;
+}
+
+.custom-tip {
+	color:#000;
+	width:130px;
+	z-index:13000;
+}
+
+.custom-title {
+	font-weight:bold;
+	font-size:11px;
+	margin:0;
+	color:#3E4F14;
+	padding:8px 8px 4px;
+	background:#C3DF7D;
+	border-bottom:1px solid #B5CF74;
+}
+
+.custom-text {
+	font-size:11px;
+	padding:4px 8px 8px;
+	background:#CFDFA7;
+}
+
+* the overlayed element */ .simple_overlay {
+
+	
+/* must be initially hidden */
+	display:none;
+
+	
+/* place overlay on top of other elements */
+	z-index:10000;
+
+	
+/* styling */
+	background-color:#333;
+	width:675px;
+	min-height:200px;
+	border:1px solid #666;
+
+	
+/* CSS3 styling for latest browsers */
+	-moz-box-shadow:0 0 90px 5px #000;
+	-webkit-box-shadow:0 0 90px #000;
+}
+
+
+	
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+	background-image:url(../img/overlay/close.png);
+	position:absolute;
+	right:-15px;
+	top:-15px;
+	cursor:pointer;
+	height:35px;
+	width:35px;
+}
+
+
+	
+/* styling for elements inside overlay */
+.details {
+	position:absolute;
+	top:15px;
+	right:15px;
+	font-size:11px;
+	color:#fff;
+	width:150px;
+}
+
+.details h3 {
+	color:#aba;
+	font-size:15px;
+	margin:0 0 -10px;
+}
+
+
+	
+/* some styling for triggers */
+#triggers {
+	text-align:center;
+}
+
+#triggers img {
+	cursor:pointer;
+	margin:0 5px;
+	background-color:#fff;
+	border:1px solid #ccc;
+	padding:2px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+}
+
+
+	
+/*mool tools tab plug in styles*/
+#home {
+	background-color:##2E3436;
+	position:relative;
+	width:350px;
+	margin-bottom:0;
+}
+
+.feature {
+	position:absolute;
+	width:800px;
+	overflow:hidden;
+}
+
+.feature img {
+	border:none;
+}
+
+.tabs {
+	margin-left:0;
+	margin-bottom:0;
+}
+
+.tabs li {
+	background-image:url(general_bg.png);
+	display:inline;
+	float:none;
+	list-style:none;
+	padding:5px;
+}
+
+.tabs li a {
+	color:white;
+	display:inline;
+	height:auto;
+	padding:5px 15px;
+	text-decoration:none;
+	width:auto;
+}
+
+.tabs li.active {
+	background-color:white;
+}
+
+.tabs li a.active {
+	color:white;
+}
