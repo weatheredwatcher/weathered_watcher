@@ -860,3 +860,30 @@ Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/site/about]
 Processing SiteController#index (for 127.0.0.1 at 2010-04-24 22:39:10) [GET]
 Rendering site/index
 Completed in 18ms (View: 17, DB: 0) | 200 OK [http://localhost/site/index]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-24 22:44:09) [GET]
+Rendering site/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/site/index]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-24 22:44:15) [GET]
+
+Errno::ENOENT (No such file or directory - test.txt):
+  app/controllers/site_controller.rb:17:in `initialize'
+  app/controllers/site_controller.rb:17:in `open'
+  app/controllers/site_controller.rb:17:in `blog'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendered rescues/_trace (40.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
