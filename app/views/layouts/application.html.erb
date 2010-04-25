@@ -16,40 +16,40 @@
 
 <body>
     <ul id="general">
-        <li class="home"><a href="http://www.weatheredwatcher.com"><img src="images/sm_logo.png" alt="weatheredwatcher.com" /></a></li>
-
+        
+		<li><%= link_to image_tag("sm_logo.png", :border=>0), {:action => 'index'}, :class => "home" %>
+		</li>
         <li><%= link_to "About", {:action => 'about'}, :class => "Tips2", :title => "About :: About Me" %></li>
 		<li><%= link_to "Projects & Portfolio", {:action => 'projects'}, :class => "Tips2", :title => "Projects & Portfolio :: Some of my Projects " %></li>
     	<li><%= link_to "Blog", {:action => 'blog'}, :class => "Tips2", :title => "Blog :: ...mindless rantings of a lunatic" %></li>
 		<li><%= link_to "Contact Us", {:action => 'contact'}, :class => "Tips2", :title => "Contact Us :: Write me...please!" %></li>
     </ul><!-- site header -->
 
-    <div id="content">
+    
        	<%= yield %>
 	
-        <div id="copyright">
+
+    
+
+	 <div id="copyright">
             Copyright &copy; 2009 <a href="http://www.weatheredwatcher.com/">WeatheredWatcher</a>.<br />
 
             <p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a> </p>
+			<script type="text/javascript">
+	//<![CDATA[
+	        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	        //]]>
+	        </script> <script type="text/javascript">
+	//<![CDATA[
+	        try {
+	        var pageTracker = _gat._getTracker("UA-11027228-1");
+	        pageTracker._trackPageview();
+	        } catch(err) {}
+	        //]]>
+	        </script>
+
         </div>
 
-        <p></p>
-    </div><!-- end of div#content -->
-
-    <div id="footer">
-        <script type="text/javascript">
-//<![CDATA[
-        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-        //]]>
-        </script> <script type="text/javascript">
-//<![CDATA[
-        try {
-        var pageTracker = _gat._getTracker("UA-11027228-1");
-        pageTracker._trackPageview();
-        } catch(err) {}
-        //]]>
-        </script>
-    </div>
 </body>
 </html>

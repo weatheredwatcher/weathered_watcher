@@ -3,7 +3,7 @@ body {
 	margin:0;
 	background:#1D1D20 none repeat scroll 0;
 	font-family:'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
-	color:#FFFFFF;
+	color:white;
 }
 
 #body {
@@ -215,7 +215,7 @@ a:active {
 	text-align:center;
 	font-size:small;
 	clear:both;
-	top:250px;
+	/* top:250px;*/
 	margin-top:px;
 	padding:5px 0;
 	color:#aaaaaa;
@@ -271,8 +271,9 @@ body {
 	margin:0;
 	padding:0;
 	font-family:sans-serif;
-	background:black -100px -200px no-repeat;
-	height:101%;
+	/* background:black -100px -200px no-repeat; */
+	background:black;
+	height:100%;
 	font-color:white;
 }
 
@@ -440,8 +441,10 @@ div.sidebar h2 {
 /* page content */
 div#content {
 	clear:both;
-	padding:1em;
+	padding:6em;
 	margin:1em;
+	color:white;
+	width:750px;
 }
 
 div.pagecell {
