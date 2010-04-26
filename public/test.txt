@@ -1,3 +1,2 @@
-this is a test<br />
-this is a test<br />
-this is a test
+<h3>First Entry in my new Rails blog</h3>
+<p> This is the very first post in my *new* blog, powered by Ruby on Rails!!</p>

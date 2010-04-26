@@ -3777,3 +3777,620 @@ Processing SiteController#index (for 127.0.0.1 at 2010-04-25 22:51:56) [GET]
 Rendering template within layouts/application
 Rendering site/index
 Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-25 23:37:24) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 08:28:45) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 25ms (View: 5, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#javascripts to js (for 127.0.0.1 at 2010-04-26 08:28:45) [GET]
+  Parameters: {"id"=>"tips"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: about, blog, contact, index, and projects):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#javascripts to js (for 127.0.0.1 at 2010-04-26 08:28:45) [GET]
+  Parameters: {"id"=>"mootools"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: about, blog, contact, index, and projects):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 08:28:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 3, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 09:37:02) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 109ms (View: 106, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 09:49:05) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 09:49:49) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 40ms (View: 19, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#javascripts to js (for 127.0.0.1 at 2010-04-26 09:49:49) [GET]
+  Parameters: {"id"=>"tips"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: about, blog, contact, index, and projects):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#javascripts to js (for 127.0.0.1 at 2010-04-26 09:49:49) [GET]
+  Parameters: {"id"=>"mootools"}
+
+ActionController::UnknownAction (No action responded to javascripts. Actions: about, blog, contact, index, and projects):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 09:52:00) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 15ms (View: 14, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 09:52:36) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 09:54:39) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 09:55:02) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 09:55:42) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 09:59:13) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 09:59:15) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 20ms (View: 17, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 09:59:19) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 09:59:49) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 09:59:55) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2010-04-26 09:59:57) [GET]
+Rendering template within layouts/application
+Rendering site/contact
+Completed in 45ms (View: 43, DB: 0) | 200 OK [http://localhost/site/contact]
+
+
+Processing SiteController#projects (for 127.0.0.1 at 2010-04-26 09:59:58) [GET]
+Rendering template within layouts/application
+Rendering site/projects
+Completed in 29ms (View: 28, DB: 0) | 200 OK [http://localhost/site/projects]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:00:01) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#projects (for 127.0.0.1 at 2010-04-26 10:00:03) [GET]
+Rendering template within layouts/application
+Rendering site/projects
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/projects]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 10:00:05) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2010-04-26 10:00:07) [GET]
+Rendering template within layouts/application
+Rendering site/contact
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/contact]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:00:10) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 10:00:38) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 10:26:08) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:26:15) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 10:28:15) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:32:47) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:35:48) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:36:29) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 10:36:40) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#projects (for 127.0.0.1 at 2010-04-26 10:36:43) [GET]
+Rendering template within layouts/application
+Rendering site/projects
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/site/projects]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:36:45) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 10:38:46) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 10ms (View: 8, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:38:50) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:39:37) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:39:50) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:40:40) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#projects (for 127.0.0.1 at 2010-04-26 10:40:49) [GET]
+Rendering template within layouts/application
+Rendering site/projects
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/projects]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:40:51) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:41:09) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:41:36) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 11ms (View: 9, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:41:36) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:41:37) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#projects (for 127.0.0.1 at 2010-04-26 10:41:44) [GET]
+Rendering template within layouts/application
+Rendering site/projects
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/projects]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:41:47) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:41:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:41:47) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:42:21) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 83ms (View: 81, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:42:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:42:21) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:42:33) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:42:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:42:33) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:42:55) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:42:55) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:42:56) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:43:09) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:43:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:43:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 10:43:12) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#contact (for 127.0.0.1 at 2010-04-26 10:43:19) [GET]
+Rendering template within layouts/application
+Rendering site/contact
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/contact]
+
+
+Processing SiteController#blog (for 127.0.0.1 at 2010-04-26 10:43:21) [GET]
+Rendering template within layouts/application
+Rendering site/blog
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/blog]
+
+
+Processing SiteController#projects (for 127.0.0.1 at 2010-04-26 10:43:22) [GET]
+Rendering template within layouts/application
+Rendering site/projects
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/site/projects]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:43:25) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 6ms (View: 4, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-26 10:43:25) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/t.png" with {:method=>:get}):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:43:38) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/site/about]

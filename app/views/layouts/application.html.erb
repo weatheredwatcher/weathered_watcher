@@ -3,15 +3,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
-    <title>WeatheredWatcher</title>
+    <title><%= @title %></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="google-site-verification" content="4o679b7thPnyi9byPY6rkFqLmeT5xphjsdZWlikn6hU" />
     <%= stylesheet_link_tag 'site' %>
-	
-    <script type="text/javascript" src="javascripts/mootools.js">
-</script>
-    <script type="text/javascript" src="javascripts/tips.js">
-</script>
+	<%= javascript_include_tag 'mootools' %>
+	<%= javascript_include_tag 'tips' %>
+    
 </head>
 
 <body>

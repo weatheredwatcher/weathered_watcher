@@ -1,7 +1,7 @@
 <pre>/* Basic tags */
 body {
 	margin:0;
-	background:#1D1D20 none repeat scroll 0;
+	background: #1D1D20 no-repeat fixed center center;
 	font-family:'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
 	color:white;
 }
@@ -444,7 +444,7 @@ div#content {
 	padding:6em;
 	margin:1em;
 	color:white;
-	width:750px;
+	/*width:750px;*/
 }
 
 div.pagecell {
@@ -453,11 +453,11 @@ div.pagecell {
 	text-align:left;
 	color:white;
 	right:0;
-	top:60px;
+	top:0px;
 	width:100ex;
 	padding-left:3ex;
 	padding-right:3ex;
-	padding-top:10ex;
+	padding-top:0ex;
 	padding-bottom:10ex;
 	margin-left:25px;
 	margin-top:4em;
