@@ -4394,3 +4394,21 @@ Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:43:38) [GET]
 Rendering template within layouts/application
 Rendering site/about
 Completed in 10ms (View: 9, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#about (for 127.0.0.1 at 2010-04-26 10:52:30) [GET]
+Rendering template within layouts/application
+Rendering site/about
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/site/about]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 10:56:42) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 5ms (View: 4, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SiteController#index (for 127.0.0.1 at 2010-04-26 13:54:51) [GET]
+Rendering template within layouts/application
+Rendering site/index
+Completed in 26ms (View: 24, DB: 0) | 200 OK [http://localhost/]
