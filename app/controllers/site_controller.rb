@@ -17,17 +17,12 @@ class SiteController < ApplicationController
 
   def blog
     @title="Welcome to WeatheredWatcher::Blog"
-    require 'rexml/document'
-    require 'open-uri'
-    include REXML
+    httpauth = Twitter::HTTPAuth.new('DavidDuggins', 'm0rpheus')
 
-    user = 'DavidDuggins' 
-    id = open("http://twitter.com/#{user}", "UserAgent" => "Ruby-Twitter Reader").read[/\d+(?=\.rss)/]
-
-    url = 'http://twitter.com/statuses/user_timeline/' + id + '.rss'
-    doc = Document.new(open(url, "UserAgent" => "Ruby-Twitter Reader").read)
-    puts doc.root.text('channel/item/title')[/^.[^:]+:\s+(.*)/,1]
-
+    client = Twitter::Base.new(httpauth)
+    #client.update('Heeeeyyyyooo from the Twitter Gem')
+    client.friends_timeline.each { |tweet| puts tweet.text }
+    
     #=> If you ever need speakers for a tech event, I suggest visiting here first: https://www.socialtext.net/speakers/index.cgi
 
     
