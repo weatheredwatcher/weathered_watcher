@@ -17,11 +17,11 @@ class SiteController < ApplicationController
 
   def blog
     @title="Welcome to WeatheredWatcher::Blog"
-    httpauth = Twitter::HTTPAuth.new('DavidDuggins', 'm0rpheus')
+    httpauth = Twitter::HTTPAuth.new('davidduggins', 'm0rpheus')
 
     client = Twitter::Base.new(httpauth)
     #client.update('Heeeeyyyyooo from the Twitter Gem')
-    client.friends_timeline.each { |tweet| puts tweet.text }
+    client.user_timeline.each { |tweet| puts tweet.text }
     
     #=> If you ever need speakers for a tech event, I suggest visiting here first: https://www.socialtext.net/speakers/index.cgi
 
