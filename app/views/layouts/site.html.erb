@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <title><%= @title %></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="google-site-verification" content="4o679b7thPnyi9byPY6rkFqLmeT5xphjsdZWlikn6hU" />
+    <%= stylesheet_link_tag 'site' %>
+	<%= stylesheet_link_tag 'tooltips' %>
+	<%= javascript_include_tag 'prototype' %>
+	<%= javascript_include_tag 'scriptaculous' %>
+	<%= javascript_include_tag 'effects' %>
+	
+	<%= javascript_include_tag 'tooltips' %>
+	
+    
+</head>
+
+<body>
+    <ul id="general">
+        
+		<li><%= link_to image_tag("sm_logo.png", :border=>0), {:action => 'index'}, :class => "home" %>
+		</li>
+        <li><%= link_to "About", {:action => 'about'}, :class => "Tips2", :title => "About :: About Me" %></li>
+		<li><%= link_to "Projects & Portfolio", {:action => 'projects'}, :class => "Tips2", :title => "Projects & Portfolio :: Some of my Projects " %></li>
+    	<li><%= link_to "Blog", {:action => 'blog'}, :class => "Tips2", :title => "Blog :: ...mindless rantings of a lunatic" %></li>
+		<li><%= link_to "Contact Us", {:action => 'contact'}, :class => "Tips2", :title => "Contact Us :: Write me...please!" %></li>
+    </ul><!-- site header -->
+
+    <div id='content'>
+<%= image_tag('weatheredwatcher.jpg') %>	
+       	<%= yield %>
+	</div>
+
+    
+
+	 <div id="copyright">
+            Copyright &copy; 2009 <a href="http://www.weatheredwatcher.com/">WeatheredWatcher</a>.<br />
+
+            <p><a href="http://validator.w3.org/check?uri=referer"><img src="http://www.w3.org/Icons/valid-xhtml10-blue" alt="Valid XHTML 1.0 Transitional" height="31" width="88" /></a> </p>
+			<script type="text/javascript">
+	//<![CDATA[
+	        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	        //]]>
+	        </script> <script type="text/javascript">
+	//<![CDATA[
+	        try {
+	        var pageTracker = _gat._getTracker("UA-11027228-1");
+	        pageTracker._trackPageview();
+	        } catch(err) {}
+	        //]]>
+	        </script>
+
+        </div>
+		<script type="text/javascript" charset="utf-8">
+				$$("ul .Tips2").each( function(link) {
+					new Tooltip(link, {mouseFollow: false, backgroundColor: "#000000", textColor: "#FFFFFF"});
+				});
+				$$("p .Tips2").each( function(input) {
+					new Tooltip(input, {backgroundColor: "#333", borderColor: "#333", textColor: "#FFF", textShadowColor: "#000"});
+				});
+				$$("form input.Tips2").each( function(input) {
+					new Tooltip(input, {backgroundColor: "#FC9", borderColor: "#C96", textColor: "#000", textShadowColor: "#FFF"});
+				});
+			</script>
+
+</body>
+</html>
