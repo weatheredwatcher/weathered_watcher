@@ -29,7 +29,7 @@ class SiteController < ApplicationController
   fh.close
   
   f = (doc/"title").inner_html
-  
+  return f
   end
   
  
