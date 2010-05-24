@@ -1,0 +1,17 @@
+<recipe>
+  <title>Buffalo Chicken Wraps</title>
+  <ingredients>
+    <ingredient>2 tortilla shells</ingredient>
+    <ingredient>1 pound chicken breast</ingredient>
+    <ingredient>1 large tomato</ingredient>
+    <ingredient>1 cup shredded lettuce</ingredient>
+    <ingredient>1 fresh jalapeno chili</ingredient>
+    <ingredient>2 tablespoons hot pepper sauce</ingredient>
+  </ingredients>
+  <directions>
+    Cook chicken on the grill. Dice tomato. 
+    Warm tortillas in microwave or a heated pan. Stuff chicken,
+    tomato, lettuce, chili, and sauce in tortilla. Eat!
+  </directions>
+  <nutrition calories="275" fat="8g" carbohydrates="19g" protein="24g" />
+</recipe>
