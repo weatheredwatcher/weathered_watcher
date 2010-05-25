@@ -17,18 +17,20 @@ class SiteController < ApplicationController
 
   def blog
     @title="Welcome to WeatheredWatcher::Blog"
-  
-  #This is an xml parser to help us write out the blog
-  
-  require 'hpricot'
-  
-  fh = File.open("#{RAILS_ROOT}/public/wordpress.2010-05-24.xml", "r")
-
-  doc = Hpricot(fh)
-
-  fh.close
-  
-  puts (doc/"title").inner_html
+    @contentsArray=[]
+    @fileArray =[]
+    Dir.foreach("#{RAILS_ROOT}/public/posts") do |fname|
+      next if fname == '.' or fname == '..'
+      @fileArray.push fname
+    end
+    
+      @fileArray = @fileArray.reverse
+      @fileArray.each{|file|
+      f = File.open("#{RAILS_ROOT}/public/posts/" + file, 'r')
+      f.each_line {|line|
+    
+    @contentsArray.push line
+    }}
   
   end
   
