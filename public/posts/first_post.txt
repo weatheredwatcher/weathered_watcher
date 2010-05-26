@@ -18,3 +18,4 @@ All the code that I found seem to mirror the idea behind Blosxom, but they just 
 <p>So, here is my answer to this issue.  It is a simple bit of ruby code that scans a directory for files and then renders them on the page.  I choose to use
 html to mark-up my posts before hand, rather than use some other mark-up language.  This might change over time.<p>
 <p>Also, I am currently not supporting tags or indiviual post pages, although this too is something that I plan on implementing.</p>
+<script src="http://gist.github.com/413912.js?file=blogsxom.rb"></script>
