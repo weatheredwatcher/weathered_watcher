@@ -16,11 +16,10 @@ a img {
 }
 
 @font-face {
-	font-family: 'AdlerRegular';
-	src: url('fonts/adler.eot');
-	src: local('Adler'), local('Adler'), url('fonts/adler.woff') format('woff'), url('fonts/adler.ttf') format('truetype'), url('fonts/adler.svg#Adler') format('svg');
+	font-family: '1942report';
+	src: url('1942.eot');
+	src: local('1942 report'), local('1942report'), url('1942.woff') format('woff'), url('1942.ttf') format('truetype'), url('1942.svg#1942report') format('svg');
 }
-
 	
 /* Anchors */
 a {
@@ -183,7 +182,7 @@ a:active {
 	background-color:#000000;
 }
 #sidebar a {
-	font-family:AdlerRegular;
+	font-family:1942Report;
 }
 #sidebar p {
 	margin-top:0;
@@ -644,7 +643,7 @@ div.pagecell h2 {
 }
 
 #project {
-	font-family: AdlerRegular;
+	font-family: 1942Report;
 	font-weight:bold;
 	color: #153561;
 }
