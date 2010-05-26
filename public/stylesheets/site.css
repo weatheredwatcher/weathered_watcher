@@ -182,7 +182,7 @@ a:active {
 	background-color:#000000;
 }
 #sidebar a {
-	font-family:1942Report;
+	font-family:'1942Report';
 }
 #sidebar p {
 	margin-top:0;
@@ -643,7 +643,7 @@ div.pagecell h2 {
 }
 
 #project {
-	font-family: 1942Report;
+	font-family:'1942Report';
 	font-weight:bold;
 	color: #153561;
 }
