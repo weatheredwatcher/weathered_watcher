@@ -16,7 +16,7 @@ a img {
 }
 
 @font-face {
-	font-family: '1942report';
+	font-family: '1942Report';
 	src: url('1942.eot');
 	src: local('1942 report'), local('1942report'), url('1942.woff') format('woff'), url('1942.ttf') format('truetype'), url('1942.svg#1942report') format('svg');
 }
