@@ -15,6 +15,11 @@ a img {
 	border:0;
 }
 
+@font-face {
+	font-family: 'AdlerRegular';
+	src: url('adler.eot');
+	src: local('Adler'), local('Adler'), url('adler.woff') format('woff'), url('adler.ttf') format('truetype'), url('adler.svg#Adler') format('svg');
+}
 
 	
 /* Anchors */
