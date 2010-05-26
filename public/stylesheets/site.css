@@ -17,8 +17,8 @@ a img {
 
 @font-face {
 	font-family: 'AdlerRegular';
-	src: url('adler.eot');
-	src: local('Adler'), local('Adler'), url('adler.woff') format('woff'), url('adler.ttf') format('truetype'), url('adler.svg#Adler') format('svg');
+	src: url('fonts/adler.eot');
+	src: local('Adler'), local('Adler'), url('fonts/adler.woff') format('woff'), url('fonts/adler.ttf') format('truetype'), url('fonts/adler.svg#Adler') format('svg');
 }
 
 	
