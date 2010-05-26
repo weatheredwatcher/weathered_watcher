@@ -182,7 +182,9 @@ a:active {
 	border-left:1px dashed #dddddd;
 	background-color:#000000;
 }
-
+#sidebar a {
+	font-family:AdlerRegular;
+}
 #sidebar p {
 	margin-top:0;
 	padding-left:10px;
