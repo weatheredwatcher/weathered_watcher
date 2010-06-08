@@ -1,5 +1,19 @@
 <div class="pagecell">
-	<%= @contentsArray%>
+	
+
+
+	<% @posts.each do |post| %>
+	 <h1 class="blog_title"><%= link_to post.title, post %></h1>
+	    written by --<%=h post.author %><br />
+	    <%=h post.body %>
+	    
+	    
+	  
+	<% end %>
+
+	<br />
+
+
 	
 
 </div>
