@@ -4,7 +4,7 @@
 
 	<% @posts.each do |post| %>
 	 <h1 class="blog_title"><%= link_to post.title, post %></h1>
-	    written by --<%=h post.author %><br />
+	    <h3>written by <%= image_tag('sm_logo.png') %> <%=h post.created_at %></h3>
 	    <%= post.body %>
 	    
 	    

@@ -28,6 +28,14 @@ a:active {
 	color:#ff0000;
 }
 
+@font-face {
+	font-family: 'RoyalPainNormal';
+	src: url('royalp-webfont.eot');
+	src: local('☺'), url('royalp-webfont.woff') format('woff'), url('royalp-webfont.ttf') format('truetype'), url('royalp-webfont.svg#webfontKJLH3QKp') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 
 	
 /* Basic classes */
