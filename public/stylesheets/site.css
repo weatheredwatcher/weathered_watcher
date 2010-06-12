@@ -11,6 +11,14 @@ body {
 	padding:0;
 }
 
+
+/* Fading Tooltips By Dustin Diaz*/
+body div#toolTip { position:absolute;z-index:1000;width:220px;background:#000;border:2px double #fff;text-align:left;padding:5px;min-height:1em;-moz-border-radius:5px; }
+body div#toolTip p { margin:0;padding:0;color:#fff;font:11px/12px verdana,arial,sans-serif; }
+body div#toolTip p em { display:block;margin-top:3px;color:#f60;font-style:normal;font-weight:bold; }
+body div#toolTip p em span { font-weight:bold;color:#fff; }
+
+
 a img {
 	border:0;
 }
@@ -29,12 +37,11 @@ a:active {
 }
 
 @font-face {
-	font-family: 'RoyalPainNormal';
-	src: url('royalp-webfont.eot');
-	src: local('☺'), url('royalp-webfont.woff') format('woff'), url('royalp-webfont.ttf') format('truetype'), url('royalp-webfont.svg#webfontKJLH3QKp') format('svg');
-	font-weight: normal;
-	font-style: normal;
+	font-family: 'AquilineRegular';
+	src: url('Aquiline.eot');
+	src: local('Aquiline'), local('Aquiline'), url('Aquiline.woff') format('woff'), url('Aquiline.ttf') format('truetype'), url('Aquiline.svg#Aquiline') format('svg');
 }
+
 
 
 	

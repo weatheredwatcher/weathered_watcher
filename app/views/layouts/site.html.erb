@@ -8,14 +8,9 @@
     <meta name="google-site-verification" content="4o679b7thPnyi9byPY6rkFqLmeT5xphjsdZWlikn6hU" />
     <%= stylesheet_link_tag 'site' %>
     <%= stylesheet_link_tag 'http://fonts.googleapis.com/css?family=IM+Fell+DW+Pica' %>
-	<%= stylesheet_link_tag 'tooltips' %>
-	<%= stylesheet_link_tag 'modalbox' %>
+	<%= javascript_include_tag 'addEvent' %>
+	<%= javascript_include_tag 'sweetTitles' %>
 	
-	<%= javascript_include_tag 'prototype' %>
-	<%= javascript_include_tag 'scriptaculous' %>
-	<%= javascript_include_tag 'effects' %>
-    <%= javascript_include_tag 'tooltips' %>
-	<%= javascript_include_tag 'modalbox' %>
 	<%= javascript_include_tag 'site'%>
     
 </head>
@@ -65,17 +60,7 @@
 	        </script>
 
         </div>
-		<script type="text/javascript" charset="utf-8">
-				$$("ul .Tips2").each( function(link) {
-					new Tooltip(link, {mouseFollow: false, backgroundColor: "#000000", textColor: "#FFFFFF"});
-				});
-				$$("p .Tips2").each( function(input) {
-					new Tooltip(input, {backgroundColor: "#333", borderColor: "#333", textColor: "#FFF", textShadowColor: "#000"});
-				});
-				$$("form input.Tips2").each( function(input) {
-					new Tooltip(input, {backgroundColor: "#FC9", borderColor: "#C96", textColor: "#000", textShadowColor: "#FFF"});
-				});
-			</script>
+		
 
 </body>
 </html>
