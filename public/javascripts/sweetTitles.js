@@ -74,8 +74,7 @@ var sweetTitles = {
 		var addy = '';
 		var access = '';
 		if ( anch.nodeName.toLowerCase() == 'a' ) {
-			addy = (anch.href.length > 25 ? anch.href.toString().substring(0,25)+"..." : anch.href);
-			var access = ( anch.accessKey ? ' <span>['+anch.accessKey+']</span> ' : '' );
+			addy = ("weatheredwatcher.com");
 		} else {
 			addy = anch.firstChild.nodeValue;
 		}
