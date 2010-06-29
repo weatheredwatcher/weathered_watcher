@@ -20,7 +20,7 @@ class SiteController < ApplicationController
     
     require 'rss'
     require 'open-uri'
-@contentsArray = []
+@contentArray = []
     rss = RSS::Parser.parse open('http://weatheredwatcher.posterous.com/rss.xml').read, false
 
     puts rss.channel.title
@@ -29,7 +29,7 @@ class SiteController < ApplicationController
       puts "" if i.zero? or item.date.day != rss.items[i-1].date.day
 
       line =  "#{item.date.strftime '%H:%M'}  #{item.title}"
-      @contentsArray.push line
+      @contentArray.push line
     end
   end
 
