@@ -17,6 +17,20 @@ class SiteController < ApplicationController
   def contact
     @title="Welcome to WeatheredWatcher::Contact"
     @current_page = "contact"
+    
+    require 'rss'
+    require 'open-uri'
+@contentsArray = []
+    rss = RSS::Parser.parse open('http://weatheredwatcher.posterous.com/rss.xml').read, false
+
+    puts rss.channel.title
+
+    rss.items.each_with_index do |item,i|
+      puts "" if i.zero? or item.date.day != rss.items[i-1].date.day
+
+      line =  "#{item.date.strftime '%H:%M'}  #{item.title}"
+      @contentsArray.push line
+    end
   end
 
   def blog
