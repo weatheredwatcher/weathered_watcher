@@ -18,29 +18,25 @@ class SiteController < ApplicationController
     @title="Welcome to WeatheredWatcher::Contact"
     @current_page = "contact"
     
-    require 'rss'
-    require 'open-uri'
-@contentArray = []
-    rss = RSS::Parser.parse open('http://weatheredwatcher.posterous.com/rss.xml').read, false
-
-    puts rss.channel.title
-
-    rss.items.each_with_index do |item,i|
-      puts "" if i.zero? or item.date.day != rss.items[i-1].date.day
-
-      line =  "#{item.date}  #{item.title} <br /> #{item.description}"
-      @contentArray.push line
-    end
+    
   end
 
   def blog
   @title="Welcome to WeatheredWatcher::Blog"
   @current_page = "blog"
-   
-  
-  @posts = Post.all
-  @posts = @posts.reverse
- 
+  require 'rss'
+  require 'open-uri'
+@contentArray = []
+  rss = RSS::Parser.parse open('http://weatheredwatcher.posterous.com/rss.xml').read, false
+
+  puts rss.channel.title
+
+  rss.items.each_with_index do |item,i|
+    puts "" if i.zero? or item.date.day != rss.items[i-1].date.day
+
+    line =  "<h1 class=\"blog_title\"><#{item.title}</h1><h3>written my weatheredwatcher at #{item.date}</h3> #{item.description}"
+    @contentArray.push line
+  end
   
   end
   
