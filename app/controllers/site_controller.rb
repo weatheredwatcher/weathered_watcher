@@ -34,7 +34,7 @@ class SiteController < ApplicationController
   rss.items.each_with_index do |item,i|
     puts "" if i.zero? or item.date.day != rss.items[i-1].date.day
 
-    line =  "<h1 class=\"blog_title\"><#{item.title}</h1><h3>written my weatheredwatcher at #{item.date}</h3> #{item.description}"
+    line =  "<h1 class='blog_title'><#{item.title}</h1><h3>written by weatheredwatcher at #{item.date}</h3> #{item.description}"
     @contentArray.push line
   end
   
