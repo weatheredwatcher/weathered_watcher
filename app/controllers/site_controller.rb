@@ -28,7 +28,7 @@ class SiteController < ApplicationController
     rss.items.each_with_index do |item,i|
       puts "" if i.zero? or item.date.day != rss.items[i-1].date.day
 
-      line =  "#{item.date.strftime '%H:%M'}  #{item.title}"
+      line =  "#{item.date.strftime}  #{item.title} <br /> #{item.description}"
       @contentArray.push line
     end
   end
