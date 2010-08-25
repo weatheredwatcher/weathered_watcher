@@ -17,8 +17,8 @@ class SiteController < ApplicationController
   def contact
     @title="Welcome to WeatheredWatcher::Contact"
     @current_page = "contact"
-    
-    
+
+
   end
 
   def blog
@@ -37,8 +37,8 @@ class SiteController < ApplicationController
     line =  "#{item.title} <br />written by weatheredwatcher at #{item.date} <br /> #{item.description}"
     @contentArray.push line
   end
-  
+
   end
-  
- 
+
+
 end
