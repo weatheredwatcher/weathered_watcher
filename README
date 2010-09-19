@@ -1,4 +1,8 @@
-== Welcome to WeatheredWatcher and Blogsxom
+== Welcome to WeatheredWatcher 
 
-Yeah, yeah.  I know it's a blatant rip-off of Blosxom, but what can I say....Imitation is the Sincerest Form of Flattery.  Basically, this is my site.  The important part of it, though, is a little bit of controller code under def blog.  It is here that I am working on my very own file-system based blog.  It's simple.  That's what I like.  If you wish to integrate this system into your own site or blog, it is very easy to do.  You are more than welcome to download my site from git-hub to use as an example, but I all you really need to do is take a look at my gist # 412912.  Here I list all the code that you need to get things started.    
+This is my personal website, written in Ruby on Rails.  Besides the obvious, telling folks a bit about me, this site is kind of a breeding grounds for a bunch of fun, playfull stuff that I am doing in Ruby!
 
+So far, I've got only a few really cool things here to look at.
+
+1) I am using Posterous for my blog...but I also wanted it displayed nativly, so to speak, here.  I used some ruby to parse an rss feed and display it on a well formed blog page.
+2) I am trying not to use flash or anything that might hurt my HTML Strict status!  So I have a custom feed 
