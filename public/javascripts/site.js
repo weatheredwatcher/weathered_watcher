@@ -38,3 +38,10 @@ function loadPage(site){
 	Modalbox.show('<div class=\'warning\'><p>Are you sure to navigate away from this site?</p> <input type=\'button\' value=\'Go!\'onclick=\'document.location=\"'+ myUrl +'\"\' /> or <input type=\'button\' value=\'Stay\' onclick=\'Modalbox.hide()\' /></div>',{title: "You are About to Leave This Site", width: 300});
 	
 }
+
+
+function show_gist(gist){
+
+    Modalbox.show('<div class=\'warning\'><p><script src=\'http://gist.github.com/190572.js?file=contact.php\'></script> </p><input type=\'button\' value=\'Close\' onclick=\'Modalbox.hide()\' /></div>',{title: "Gist:" + gist, width:800, height: 800 });	
+
+}
